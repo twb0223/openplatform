@@ -1,0 +1,1360 @@
+DEBUG 2016-10-28 09:38:05,783 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 09:38:05,795 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 09:38:05,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:05,807 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 09:38:06,022 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:38:06,411 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 09:38:06,416 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 09:38:06,418 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 09:38:06,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 09:38:06,590 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 09:38:06,633 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 09:38:06,634 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 09:38:08,839 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 09:38:08,869 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 09:38:21,567 [6    ] amework.BaseServiceOpenPlatformDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - UserName: UserName 字段是必需的。
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - Password: Password 字段是必需的。
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - Email: Email 字段是必需的。
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - Mobile: Mobile 字段是必需的。
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - UserName: UserName 字段是必需的。
+ERROR 2016-10-28 09:38:21,568 [6    ] amework.BaseServiceOpenPlatformDbContext -  - Password: Password 字段是必需的。
+ERROR 2016-10-28 09:38:21,575 [6    ] nHandling.AbpApiExceptionFilterAttribute - 对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+System.Data.Entity.Validation.DbEntityValidationException: 对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 202
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 09:41:17,262 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 09:41:17,273 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 09:41:17,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:17,282 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 09:41:17,482 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:41:18,337 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 09:41:18,344 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 09:41:18,345 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 09:41:18,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 09:41:18,487 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 09:41:18,516 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 09:41:18,516 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 09:41:20,969 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 09:41:20,997 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 09:45:19,235 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 09:45:19,249 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 09:45:19,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:19,256 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 09:45:19,453 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 09:45:20,397 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 09:45:20,404 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 09:45:20,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 09:45:20,409 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 09:45:20,548 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 09:45:20,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 09:45:20,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 09:45:22,974 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 09:45:22,999 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 09:45:47,894 [6    ] nHandling.AbpApiExceptionFilterAttribute - 更新条目时出错。有关详细信息，请参阅内部异常。
+System.Data.Entity.Infrastructure.DbUpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.Entity.Core.UpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"RefAdminUsers13"冲突。该冲突发生于数据库"KeduOpenPlatform"，表"dbo.AdminUsers", column 'Id'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-10-28 09:46:12,203 [6    ] nHandling.AbpApiExceptionFilterAttribute - 更新条目时出错。有关详细信息，请参阅内部异常。
+System.Data.Entity.Infrastructure.DbUpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.Entity.Core.UpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"RefAdminUsers13"冲突。该冲突发生于数据库"KeduOpenPlatform"，表"dbo.AdminUsers", column 'Id'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.CreateNewApp(OpenPlatformMicroApplicationDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 10:11:11,094 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 10:11:11,108 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 10:11:11,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:11,116 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 10:11:11,341 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:11:12,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 10:11:12,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 10:11:12,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 10:11:12,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 10:11:12,537 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 10:11:12,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 10:11:12,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 10:11:15,229 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 10:11:15,251 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 10:18:30,147 [21   ] nHandling.AbpApiExceptionFilterAttribute - 基础提供程序在 Open 上失败。
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.Transactions.TransactionManagerCommunicationException: 已禁用对分布式事务管理器(MSDTC)的网络访问。请使用组件服务管理工具启用 DTC 以便在 MSDTC 安全配置中进行网络访问。 ---> System.Runtime.InteropServices.COMException: 该事务管理器已经禁止了它对远程/网络事务的支持。 (异常来自 HRESULT:0x8004D024)
+   在 System.Transactions.Oletx.IDtcProxyShimFactory.ReceiveTransaction(UInt32 propgationTokenSize, Byte[] propgationToken, IntPtr managedIdentifier, Guid& transactionIdentifier, OletxTransactionIsolationLevel& isolationLevel, ITransactionShim& transactionShim)
+   在 System.Transactions.TransactionInterop.GetOletxTransactionFromTransmitterPropigationToken(Byte[] propagationToken)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   在 System.Transactions.TransactionInterop.GetOletxTransactionFromTransmitterPropigationToken(Byte[] propagationToken)
+   在 System.Transactions.TransactionStatePSPEOperation.PSPEPromote(InternalTransaction tx)
+   在 System.Transactions.TransactionStateDelegatedBase.EnterState(InternalTransaction tx)
+   在 System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   在 System.Transactions.Transaction.Promote()
+   在 System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   在 System.Transactions.TransactionInterop.GetExportCookie(Transaction transaction, Byte[] whereabouts)
+   在 System.Data.SqlClient.SqlInternalConnection.GetTransactionCookie(Transaction transaction, Byte[] whereAbouts)
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.UpdateNewApp(UpdateOpenPlatformMicroApplicationInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.UpdateNewApp(UpdateOpenPlatformMicroApplicationInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 10:31:25,178 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 10:31:25,225 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 10:31:25,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:25,256 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 10:31:25,507 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:31:26,064 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 10:31:26,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 10:31:26,073 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 10:31:26,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 10:31:26,255 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 10:31:26,341 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 10:31:26,342 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 10:31:30,174 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 10:31:30,199 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 10:37:57,666 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 10:37:57,678 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 10:37:57,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:57,686 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 10:37:57,915 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 10:37:58,890 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 10:37:58,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 10:37:58,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 10:37:58,898 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 10:37:59,063 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 10:37:59,102 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 10:37:59,103 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 10:38:02,073 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 10:38:02,098 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 11:12:12,824 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 11:12:12,835 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 11:12:12,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:12,843 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 11:12:13,049 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:12:13,917 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 11:12:13,923 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 11:12:13,924 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 11:12:13,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 11:12:14,086 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 11:12:14,117 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 11:12:14,118 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 11:12:16,611 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 11:12:16,634 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 11:21:58,072 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 11:21:58,095 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 11:21:58,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,104 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,104 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,104 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,104 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:58,111 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 11:21:58,410 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:21:59,534 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 11:21:59,541 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 11:21:59,543 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 11:21:59,545 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 11:21:59,727 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 11:21:59,759 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 11:21:59,760 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 11:22:02,369 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 11:22:02,400 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 11:25:02,402 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 11:25:02,413 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 11:25:02,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:02,424 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 11:25:02,629 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:25:03,555 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 11:25:03,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 11:25:03,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 11:25:03,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 11:25:03,724 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 11:25:03,752 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 11:25:03,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 11:25:06,153 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 11:25:06,177 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 11:32:23,563 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 11:32:23,577 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 11:32:23,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:23,588 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 11:32:23,815 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:32:24,769 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 11:32:24,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 11:32:24,778 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 11:32:24,781 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 11:32:24,931 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 11:32:24,963 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 11:32:24,964 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 11:32:27,578 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 11:32:27,600 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 11:54:35,363 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 11:54:35,381 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 11:54:35,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:35,397 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 11:54:35,721 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 11:54:36,760 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 11:54:36,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 11:54:36,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 11:54:36,773 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 11:54:36,939 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 11:54:36,978 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 11:54:36,979 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 11:54:39,590 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 11:54:39,615 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 14:49:56,613 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 14:49:56,637 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 14:49:56,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:56,645 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 14:49:56,913 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:49:58,161 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 14:49:58,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 14:49:58,203 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 14:49:58,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 14:49:58,357 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 14:49:58,389 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 14:49:58,390 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 14:50:01,507 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 14:50:01,533 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 14:50:30,097 [6    ] nHandling.AbpApiExceptionFilterAttribute - 序列不包含任何元素
+System.InvalidOperationException: 序列不包含任何元素
+   在 System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Castle.Proxies.OpenPlatformMicroApplicationRepositoryProxy.Single_callback(Expression`1 predicate)
+   在 Castle.Proxies.Invocations.AbpRepositoryBase`2_Single.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 53
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationRepositoryProxy.Single(Expression`1 predicate)
+   在 KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.OpenPlatformMicroApplicationService.GetAppInfo(String AppId) 位置 D:\KeduOpenPlanform\BaseServiceOpenPlatform\KeDu.BaseServiceOpenPlatform.Application\OpenPlatformMicroApplication\OpenPlatformMicroApplicationService.cs:行号 140
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.GetAppInfo_callback(String AppId)
+   在 Castle.Proxies.Invocations.IOpenPlatformMicroApplicationService_GetAppInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 53
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.GetAppInfo(String appid)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.GetAppInfo(String appid)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 14:51:32,908 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 14:51:32,921 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 14:51:32,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:32,930 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 14:51:33,143 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:51:34,110 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 14:51:34,116 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 14:51:34,117 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 14:51:34,119 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 14:51:34,262 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 14:51:34,299 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 14:51:34,301 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 14:51:38,790 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 14:51:38,811 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 14:52:15,460 [7    ] nHandling.AbpApiExceptionFilterAttribute - 序列不包含任何元素
+System.InvalidOperationException: 序列不包含任何元素
+   在 System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Castle.Proxies.OpenPlatformMicroApplicationRepositoryProxy.Single_callback(Expression`1 predicate)
+   在 Castle.Proxies.Invocations.AbpRepositoryBase`2_Single.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 53
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationRepositoryProxy.Single(Expression`1 predicate)
+   在 KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.OpenPlatformMicroApplicationService.GetAppInfo(String AppId) 位置 D:\KeduOpenPlanform\BaseServiceOpenPlatform\KeDu.BaseServiceOpenPlatform.Application\OpenPlatformMicroApplication\OpenPlatformMicroApplicationService.cs:行号 140
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.GetAppInfo_callback(String AppId)
+   在 Castle.Proxies.Invocations.IOpenPlatformMicroApplicationService_GetAppInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 53
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformMicroApplicationServiceProxy.GetAppInfo(String appid)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.GetAppInfo(String appid)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 14:54:00,917 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 14:54:00,927 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 14:54:00,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:00,938 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 14:54:01,149 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 14:54:02,051 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 14:54:02,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 14:54:02,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 14:54:02,060 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 14:54:02,207 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 14:54:02,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 14:54:02,238 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 14:54:04,559 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 14:54:04,581 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 16:13:34,545 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 16:13:34,555 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 16:13:34,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:34,563 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 16:13:34,769 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:13:35,640 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 16:13:35,645 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 16:13:35,646 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 16:13:35,648 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 16:13:35,793 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 16:13:35,822 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 16:13:35,823 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 16:13:35,824 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 16:13:38,167 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 16:13:38,188 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 16:54:09,810 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 16:54:09,821 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 16:54:09,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:09,829 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 16:54:10,032 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:54:10,901 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 16:54:10,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 16:54:10,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 16:54:10,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 16:54:11,046 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 16:54:11,075 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 16:54:11,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 16:54:11,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 16:54:13,441 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 16:54:13,461 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 16:56:53,001 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 16:56:53,012 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 16:56:53,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:53,020 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 16:56:53,223 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 16:56:54,077 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 16:56:54,083 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 16:56:54,085 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 16:56:54,086 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 16:56:54,223 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 16:56:54,255 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 16:56:54,256 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 16:56:54,256 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 16:56:56,561 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 16:56:56,589 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 16:57:19,462 [7    ] nHandling.AbpApiExceptionFilterAttribute - 更新条目时出错。有关详细信息，请参阅内部异常。
+System.Data.Entity.Infrastructure.DbUpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.Entity.Core.UpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.SqlClient.SqlException: 从 datetime2 数据类型到 datetime 数据类型的转换产生一个超出范围的值。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformUsersServiceProxy.Resister(OpenPlatformUsersDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.Resister(OpenPlatformUsersDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-10-28 16:59:32,636 [6    ] nHandling.AbpApiExceptionFilterAttribute - 更新条目时出错。有关详细信息，请参阅内部异常。
+System.Data.Entity.Infrastructure.DbUpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.Entity.Core.UpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.SqlClient.SqlException: 从 datetime2 数据类型到 datetime 数据类型的转换产生一个超出范围的值。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformUsersServiceProxy.Resister(OpenPlatformUsersDto input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.Resister(OpenPlatformUsersDto input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 17:00:35,267 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 17:00:35,278 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 17:00:35,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:35,287 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 17:00:35,493 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:00:36,393 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 17:00:36,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 17:00:36,401 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 17:00:36,402 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 17:00:36,550 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 17:00:36,579 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 17:00:36,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 17:00:36,581 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 17:00:39,028 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 17:00:39,053 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-10-28 17:10:37,223 [52   ] nHandling.AbpApiExceptionFilterAttribute - 基础提供程序在 Open 上失败。
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.Transactions.TransactionManagerCommunicationException: 已禁用对分布式事务管理器(MSDTC)的网络访问。请使用组件服务管理工具启用 DTC 以便在 MSDTC 安全配置中进行网络访问。 ---> System.Runtime.InteropServices.COMException: 该事务管理器已经禁止了它对远程/网络事务的支持。 (异常来自 HRESULT:0x8004D024)
+   在 System.Transactions.Oletx.IDtcProxyShimFactory.ReceiveTransaction(UInt32 propgationTokenSize, Byte[] propgationToken, IntPtr managedIdentifier, Guid& transactionIdentifier, OletxTransactionIsolationLevel& isolationLevel, ITransactionShim& transactionShim)
+   在 System.Transactions.TransactionInterop.GetOletxTransactionFromTransmitterPropigationToken(Byte[] propagationToken)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   在 System.Transactions.TransactionInterop.GetOletxTransactionFromTransmitterPropigationToken(Byte[] propagationToken)
+   在 System.Transactions.TransactionStatePSPEOperation.PSPEPromote(InternalTransaction tx)
+   在 System.Transactions.TransactionStateDelegatedBase.EnterState(InternalTransaction tx)
+   在 System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   在 System.Transactions.Transaction.Promote()
+   在 System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   在 System.Transactions.TransactionInterop.GetExportCookie(Transaction transaction, Byte[] whereabouts)
+   在 System.Data.SqlClient.SqlInternalConnection.GetTransactionCookie(Transaction transaction, Byte[] whereAbouts)
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 Abp.EntityFramework.AbpDbContext.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:行号 196
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 159
+   在 Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 76
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:行号 94
+   在 Abp.Domain.Uow.UnitOfWorkBase.Complete() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:行号 247
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 54
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 45
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:行号 35
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:行号 29
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:行号 34
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.OpenPlatformUsersServiceProxy.ChangePassword(OpenPlatformUserLoginInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:行号 44
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy.ChangePassword(OpenPlatformUserLoginInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClassc.<GetExecutor>b__6(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:行号 40
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:行号 30
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() 位置 D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:行号 55
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-28 17:19:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 17:19:16,662 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 17:19:16,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:16,671 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 17:19:16,878 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:19:17,773 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 17:19:17,779 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 17:19:17,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 17:19:17,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 17:19:17,925 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 17:19:17,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 17:19:17,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 17:19:17,955 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 17:19:20,333 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 17:19:20,370 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-28 17:59:55,154 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-28 17:59:55,165 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-28 17:59:55,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:55,174 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-28 17:59:55,410 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-28 17:59:56,363 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-28 17:59:56,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-28 17:59:56,370 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-28 17:59:56,372 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-28 17:59:56,525 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-28 17:59:56,554 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-28 17:59:56,555 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-28 17:59:56,556 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-28 17:59:59,068 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-28 17:59:59,090 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-29 09:47:36,587 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-29 09:47:36,597 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-29 09:47:36,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:36,606 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-29 09:47:36,811 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:47:37,707 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-29 09:47:37,713 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-29 09:47:37,714 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-29 09:47:37,715 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-29 09:47:37,858 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-29 09:47:37,887 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-29 09:47:37,888 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-29 09:47:37,889 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-29 09:47:40,713 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-29 09:47:40,733 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-29 09:51:44,375 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-29 09:51:44,385 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-29 09:51:44,388 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:44,393 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-29 09:51:44,590 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:51:45,480 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-29 09:51:45,486 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-29 09:51:45,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-29 09:51:45,488 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-29 09:51:45,626 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-29 09:51:45,660 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-29 09:51:45,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-29 09:51:45,662 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+WARN  2016-10-29 09:51:48,461 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-29 09:51:48,484 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-29 09:54:02,474 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-29 09:54:02,488 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-29 09:54:02,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:02,497 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-29 09:54:02,693 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 09:54:03,564 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-29 09:54:03,570 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-29 09:54:03,571 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-29 09:54:03,573 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-29 09:54:03,716 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-29 09:54:03,744 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-29 09:54:03,745 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-29 09:54:03,746 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+DEBUG 2016-10-29 09:54:03,747 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.IMicroApplicationAuthorizationService' with service name 'app/microApplicationAuthorizationService'.
+WARN  2016-10-29 09:54:06,073 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-29 09:54:06,096 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-10-29 10:22:18,191 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-29 10:22:18,202 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-10-29 10:22:18,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.Web.BaseServiceOpenPlatformWebModule, KeDu.BaseServiceOpenPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformDataModule, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformCoreModule, KeDu.BaseServiceOpenPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformApplicationModule, KeDu.BaseServiceOpenPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformWebApiModule, KeDu.BaseServiceOpenPlatform.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:18,210 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-10-29 10:22:18,412 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: KeDu.BaseServiceOpenPlatform.EntityFramework.BaseServiceOpenPlatformDbContext, KeDu.BaseServiceOpenPlatform.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-29 10:22:19,282 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-10-29 10:22:19,287 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-29 10:22:19,289 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-29 10:22:19,290 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BaseServiceOpenPlatform
+DEBUG 2016-10-29 10:22:19,428 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-29 10:22:19,457 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService' with service name 'app/openUserHeadsService'.
+DEBUG 2016-10-29 10:22:19,458 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService' with service name 'app/openPlatformUsersService'.
+DEBUG 2016-10-29 10:22:19,459 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService' with service name 'app/openPlatformMicro'.
+DEBUG 2016-10-29 10:22:19,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.IMicroApplicationVisibleRangeService' with service name 'app/microApplicationVisibleRangeService'.
+DEBUG 2016-10-29 10:22:19,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.IMicroApplicationAuthorizationService' with service name 'app/microApplicationAuthorizationService'.
+WARN  2016-10-29 10:22:21,739 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-10-29 10:22:21,765 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

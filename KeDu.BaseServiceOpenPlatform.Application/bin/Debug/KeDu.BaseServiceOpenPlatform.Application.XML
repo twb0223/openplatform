@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KeDu.BaseServiceOpenPlatform.Application</name>
+    </assembly>
+    <members>
+        <member name="T:KeDu.BaseServiceOpenPlatform.BaseServiceOpenPlatformAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.Dtos.MicroApplicationAuthorizationDto.RangeId">
+            <summary>
+            类型ID
+            </summary>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.IMicroApplicationAuthorizationService.AddAuthorization(KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.Dtos.MicroApplicationAuthorizationDto)">
+            <summary>
+            添加授权应用
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.IMicroApplicationAuthorizationService.UpdateAuthorization(KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.Dtos.MicroApplicationAuthorizationDto)">
+            <summary>
+            更新授权应用
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationAuthorization.IMicroApplicationAuthorizationService.DeleteAuthorization(System.Guid)">
+            <summary>
+            删除授权应用
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.IMicroApplicationVisibleRangeService.AddMicroApplicationVisibleRange(KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.Dtos.MicroApplicationVisibleRangeDto)">
+            <summary>
+            添加范围
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.IMicroApplicationVisibleRangeService.UpdateMicroApplicationVisibleRange(KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.Dtos.MicroApplicationVisibleRangeDto)">
+            <summary>
+            更新范围
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.MicroApplicationVisibleRange.IMicroApplicationVisibleRangeService.DeleteUpdateMicroApplicationVisibleRange(System.Guid)">
+            <summary>
+            删除范围
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ExamineAppInput.IsExamine">
+            <summary>
+            0=通过  1=未通过 默认未通过
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationByConditionInput.UserID">
+            <summary>
+            用户iD
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationByConditionInput.CompanyID">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationByConditionInput.ShopID">
+            <summary>
+            门店ID
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationByConditionInput.DepartmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.UpdateOpenPlatformMicroApplicationInput.logo">
+            <summary>
+            logo
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.UpdateOpenPlatformMicroApplicationInput.Introduction">
+            <summary>
+            介绍
+            </summary>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationInput">
+            <summary>
+            验证微应用输入参数
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationInput.AppId">
+            <summary>
+            AppId
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationInput.AppSecret">
+            <summary>
+            AppSecret
+            </summary>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationOutput">
+            <summary>
+            验证微应用输出
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationOutput.IsValidate">
+            <summary>
+            是否验证通过
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationOutput.OpenPlatformMicroApplication">
+            <summary>
+            验证通过对象
+            </summary>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService">
+            <summary>
+            微应用服务
+            </summary>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.GetOpenPlatformMicroApplications(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationInput)">
+            <summary>
+            获取微应用列表
+            </summary>
+            <param name="input">输入参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.GetOpenPlatfromMicroApplicationByCreator(System.Guid)">
+            <summary>
+            开发者获取自己的应用列表
+            </summary>
+            <param name="CreatorID">创建人ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.GetOpenPlatfromMicroApplicationByAdmin(System.Guid)">
+            <summary>
+            管理员获取自己审核的app列表
+            </summary>
+            <param name="ExamineUserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.GetOpenPlatfromMicroApplicationByCondition(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.GetOpenPlatformMicroApplicationByConditionInput)">
+            <summary>
+            用户获取自己可见的app列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.ValidateOpenPlatformMicroApplication(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ValidateOpenPlatformMicroApplicationInput)">
+            <summary>
+            验证微应用
+            </summary>
+            <param name="input">输入参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.CreateNewApp(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.OpenPlatformMicroApplicationDto)">
+            <summary>
+            创建新的app
+            </summary>
+            <param name="input">输入参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.UpdateNewApp(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.UpdateOpenPlatformMicroApplicationInput)">
+            <summary>
+            更新App
+            </summary>
+            <param name="input">输入参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.DeleteApp(System.Guid)">
+            <summary>
+            删除应用
+            </summary>
+            <param name="Id"></param>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.GetAppInfo(System.String)">
+            <summary>
+            获取应用信息
+            </summary>
+            <param name="appid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.IOpenPlatformMicroApplicationService.ExamineApp(KeDu.BaseServiceOpenPlatform.OpenPlatformMicroApplication.Dtos.ExamineAppInput)">
+            <summary>
+            审核
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService.Resister(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUsersDto)">
+            <summary>
+            平台用户注册
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService.Login(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUserLoginInput)">
+            <summary>
+            平台用户登陆验证
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.IOpenPlatformUsersService.ChangePassword(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUserChangePasswordInput)">
+            <summary>
+            修改密码·
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.OpenPlatformUsersService.ChangePassword(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUserChangePasswordInput)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="input"></param>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.OpenPlatformUsersService.Login(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUserLoginInput)">
+            <summary>
+            登陆验证
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.OpenPlatformUsersService.Resister(KeDu.BaseServiceOpenPlatform.OpenPlatformUsers.Dtos.OpenPlatformUsersDto)">
+            <summary>
+            注册平台账户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdInput">
+            <summary>
+            获取OpenId输入参数
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdInput.UserId">
+            <summary>
+            嘟嘟用户Id
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdInput.OpenPlatformMicroApplicationId">
+            <summary>
+            微应用Id
+            </summary>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdOutput">
+            <summary>
+            获取OpenId输出
+            </summary>
+        </member>
+        <member name="P:KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdOutput.OpenId">
+            <summary>
+            OpenId
+            </summary>
+        </member>
+        <member name="T:KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService">
+            <summary>
+            开放平台用户标识服务
+            </summary>
+        </member>
+        <member name="M:KeDu.BaseServiceOpenPlatform.OpenUserHeads.IOpenUserHeadsService.GetOpenId(KeDu.BaseServiceOpenPlatform.OpenUserHeads.Dtos.GetOpenIdInput)">
+            <summary>
+            获取OpenId
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
